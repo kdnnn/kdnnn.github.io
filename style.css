@@ -1,0 +1,32 @@
+
+/*Import text!*/
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    background-color: black;
+        padding: 120px;
+        font-size: 62px;
+        font-weight: 200;
+        font-family: 'DotGothic16', sans-serif;
+        color: rgb(0, 255, 0);
+}
+
+button {
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    color: rgb(0, 255, 0);
+}
+
+script {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'DotGothic16', sans-serif;
+    color: rgb(0, 255, 0);
+}   
+

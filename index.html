@@ -1,27 +1,33 @@
 <!DOCTYPE html>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
 <html>
     <head>
-        <title>Is my device ON?</title>
-    </head>
-    <footer><center><h6>Is my device ON? v0.1 by Qaydan</h6></center></footer>
-    <body>
-
-        <h1><center><strong><b><i>Is my device ON?</i></b><strong></center></h1>
-
-         <center><button onclick="Yes()" style ="border-radius: 100px;"</center>
+        <title>Is my device Working?</title>
+        <link rel="stylesheet" href="style.css">
             
-        <p id="test">Check</p>
+            <center>Is my device</center> 
+            <center><b>Working?</b></center>
+            <center>↓</center> 
+    </head>
+<!--pretend that there is complicated code here lmao :)-->
+    <body>
+        <div>
+        <center><button onclick="Click(), confetti()" style ="border-radius: 100px; border-color: rgb(0, 255, 0); border-width: 8px; "</center>
+            
+        <p id="test">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Check now!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
 
 
         
         <script>    
-            function Yes(){
-                document.getElementById("test").innerHTML = "<i>Yes, your device is <b>ON</b></i>";
-            
+            function Click(){
+                document.getElementById("test").innerHTML = "&nbsp;&nbsp;Congrats! your device is <b>WORKING</b>&nbsp;&nbsp;"; 
+                
             }
         </script>
-
+        </div>
     </body>
-    
-    
+
+    <footer><center>IMDW? v0.2 - made with &hearts; <i>by Qaydan</i></center></footer>
+
 </html>
